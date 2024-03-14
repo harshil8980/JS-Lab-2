@@ -1,0 +1,82 @@
+/* styles.css */
+
+/* Resetting default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling the heading */
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Styling the button */
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling the toy car details container */
+#toyCarDetails {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#toyCarDetails h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+#toyCarDetails p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #666;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    button {
+        font-size: 14px;
+    }
+    #toyCarDetails {
+        padding: 10px;
+    }
+    #toyCarDetails h2 {
+        font-size: 18px;
+    }
+    #toyCarDetails p {
+        font-size: 14px;
+    }
+}
